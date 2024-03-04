@@ -11,6 +11,7 @@ body, html {
     min-width: 100%;
     height: 84vh;
     overflow: hidden;
+    z-index: -100;
 }
 
 video {
@@ -129,6 +130,7 @@ h1 {
 @media screen and (max-width: 488px) {
     .video-container {
         min-width: 100%;
+        z-index: -100;
     }
 
     .links-second {
